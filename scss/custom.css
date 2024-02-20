@@ -1,0 +1,40 @@
+body {
+  background-color: #2D2E30;
+  color: #CAD4E0;
+  padding: 40px;
+  color: #CAD4E0;
+  margin: 0;
+}
+
+nav p {
+  margin-right: 20px;
+}
+nav a {
+  padding: 20px;
+}
+
+.gengar-wrapper {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.gengar-wrapper img {
+  width: auto;
+  height: 60%;
+}
+
+.hero-text-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero-text-wrapper .hero-text-one {
+  position: relative;
+  z-index: 0;
+  font-size: 24px;
+}/*# sourceMappingURL=custom.css.map */
